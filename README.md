@@ -1,41 +1,16 @@
 # Cordova/PhoneGap Wrapper for Paystack SDK
 
-for Android & iOS by [Arttitude 360](http://www.arttitude360.com)
-
-## Index
-
-1. [Description](#1-description)
-2. [Installation](#3-installation)
-	3. [Automatically (CLI / Plugman)](#automatically-cli--plugman)
-	3. [Manually](#manually)
-	3. [PhoneGap Build](#phonegap-build)
-3. [Usage](#3-usage)
-4. [Credits](#4-credits)
-5. [Changelog](#5-changelog)
-6. [License](#6-license)
-
-### PS: If you are using this plugin in production, please give the repo a star - I am not being vain and have no interest in the vanity metric, just trying to figure out if it is still worth the time or effort spent supporting the plugin. Cheers!
-
-## 1. Description
-
-This plugin allows to add Paystack Payments to your application using the [Paystack Mobile Android SDK](https://github.com/PaystackHQ/paystack-android) and the [Paystack Mobile iOS SDK](https://github.com/PaystackHQ/paystack-ios) libraries. 
-While there are a million ways to build mobile applications these days, there are only very few ways to stay secure. The native Paystack SDK uses your pulishable/public key to generate a one-time token to be used to charge a card (on your backend/server) - this plugin allows you to do all that in your Cordova/PhoneGap app without worrying about your secret key being compromised. Your secret keys do not belong in version control and you should never use them in client-side code or in a Cordova/PhoneGap application.
-* Compatible with [Cordova Plugman](https://github.com/apache/cordova-plugman).
-* Officially supported by [PhoneGap Build](https://build.phonegap.com/plugins).
-
-## 2. Installation
+For Android & iOS by [Arttitude 360](http://www.arttitude360.com)
+<br/>
+This fork supports cordova 9 and latest ionic framework 5
+## Installation
 
 ### Automatically (CLI / Plugman)
 PaystackPlugin is compatible with [Cordova Plugman](https://github.com/apache/cordova-plugman), compatible with [PhoneGap 3.0 CLI](http://docs.phonegap.com/en/3.0.0/guide_cli_index.md.html#The%20Command-line%20Interface_add_features), here's how it works with the CLI:
 
 Using the Cordova CLI and the [Cordova Plugin Registry](http://plugins.cordova.io)
 ```
-$ cordova plugin add cordova-plugin-paystack
-```
-
-Or directly from the repo (most especially if you run into any issues building for IOS with the command above)
-```
-$ cordova plugin add https://github.com/tolu360/cordova-plugin-paystack
+$ cordova plugin add https://github.com/israelomotayo/cordova-plugin-paystack-updated.git
 ```
 
 There's a [sample/test app](https://github.com/tolu360/cppexample/) you can review or compare your setup with, should you run into issues.
